@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<script>
-    document.getElementById("po").innerHTML = "Je.."
-    console.log("inner html ")
-</script>
 <body>
     <p id="po">helll o</p>
+
+    <script>
+        const text = document.getElementById("po")
+        text.innerHTML = Date()
+        console.log("inner html ")
+    </script>
 
 </body>
 </html>
